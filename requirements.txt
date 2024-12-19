@@ -1,0 +1,8 @@
+streamlit
+pytesseract
+opencv-python-headless
+Pillow
+sentence-transformers
+torch
+nltk
+PyMuPDF
