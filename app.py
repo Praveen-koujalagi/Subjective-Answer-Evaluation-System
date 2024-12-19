@@ -14,8 +14,7 @@ import nltk
 nltk.download('stopwords')
 
 # Set Tesseract command path for Linux (Streamlit Cloud)
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-
+pytesseract.pytesseract.tesseract_cmd = 'tesseract'
 
 # Load NLP model for sentence embeddings
 nlp_model = SentenceTransformer('all-MiniLM-L6-v2')
