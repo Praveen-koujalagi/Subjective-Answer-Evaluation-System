@@ -91,7 +91,7 @@ def calculate_accuracy(similarity):
     
     accuracy = similarity * 80  # Scale similarity to reflect up to 80% accuracy
     if similarity < 1.0:
-        accuracy += 18  
+        accuracy += 0  
     return min(accuracy, 100)  # Cap the accuracy at 100%
 
 # Streamlit UI
